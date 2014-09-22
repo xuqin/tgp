@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{76A39BB2-9B84-4C65-98A5-654D86B86F2A}</ProjectGuid>
+    <RootNamespace>test_win32</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\cocos2d-x-2.2.1\cocos2dx\platform\third_party\win32\pthread;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\external;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\CocosDenshion\include;$(ProjectDir)..\..\..\extensions;..\Classes;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libExtensions.lib;libcocos2d.lib;libCocosDenshion.lib;opengl32.lib;glew32.lib;libBox2d.lib;libchipmunk.lib;libcurl_imp.lib;pthreadVCE2.lib;websockets.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutDir)"</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\external;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\CocosDenshion\include;$(ProjectDir)..\..\..\extensions;..\Classes;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libExtensions.lib;libcocos2d.lib;libCocosDenshion.lib;opengl32.lib;glew32.lib;libBox2d.lib;libchipmunk.lib;libcurl_imp.lib;pthreadVCE2.lib;websockets.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutDir)"</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\GCData\DataInitial.cpp" />
+    <ClCompile Include="..\Classes\GCData\GameConfigData.cpp" />
+    <ClCompile Include="..\Classes\GLayer\BackLayer.cpp" />
+    <ClCompile Include="..\Classes\GLayer\DailyLogIn.cpp" />
+    <ClCompile Include="..\Classes\GLayer\DailyPurchaseLayer.cpp" />
+    <ClCompile Include="..\Classes\GLayer\DialogLayer.cpp" />
+    <ClCompile Include="..\Classes\GLayer\GameLayer.cpp" />
+    <ClCompile Include="..\Classes\GLayer\GameOver.cpp" />
+    <ClCompile Include="..\Classes\GLayer\GamePause.cpp" />
+    <ClCompile Include="..\Classes\GLayer\GameReviveLayer.cpp" />
+    <ClCompile Include="..\Classes\GLayer\HelpLayer.cpp" />
+    <ClCompile Include="..\Classes\GLayer\HeroChoice.cpp" />
+    <ClCompile Include="..\Classes\GLayer\LevelChoice.cpp" />
+    <ClCompile Include="..\Classes\GLayer\LogoLayer.cpp" />
+    <ClCompile Include="..\Classes\GLayer\LuckySpinLayer.cpp" />
+    <ClCompile Include="..\Classes\GLayer\MainMenu.cpp" />
+    <ClCompile Include="..\Classes\GLayer\MyScissorLayer.cpp" />
+    <ClCompile Include="..\Classes\GLayer\MyScrowLayer.cpp" />
+    <ClCompile Include="..\Classes\GLayer\PetChoiceLayer.cpp" />
+    <ClCompile Include="..\Classes\GLayer\PrepareLayer.cpp" />
+    <ClCompile Include="..\Classes\GLayer\ShopLayer.cpp" />
+    <ClCompile Include="..\Classes\GLayer\StartGameLoading.cpp" />
+    <ClCompile Include="..\Classes\GLayer\StartLoading.cpp" />
+    <ClCompile Include="..\Classes\jansson\dump.c" />
+    <ClCompile Include="..\Classes\jansson\error.c" />
+    <ClCompile Include="..\Classes\jansson\hashtable.c" />
+    <ClCompile Include="..\Classes\jansson\load.c" />
+    <ClCompile Include="..\Classes\jansson\memory.c" />
+    <ClCompile Include="..\Classes\jansson\pack_unpack.c" />
+    <ClCompile Include="..\Classes\jansson\strbuffer.c" />
+    <ClCompile Include="..\Classes\jansson\strconv.c" />
+    <ClCompile Include="..\Classes\jansson\utf.c" />
+    <ClCompile Include="..\Classes\jansson\value.c" />
+    <ClCompile Include="..\Classes\NDKHelper\NDKCallbackNode.cpp" />
+    <ClCompile Include="..\Classes\NDKHelper\NDKHelper.cpp" />
+    <ClCompile Include="..\Classes\SpriteNode\BulletSprite.cpp" />
+    <ClCompile Include="..\Classes\SpriteNode\HeroBulletSprite.cpp" />
+    <ClCompile Include="..\Classes\SpriteNode\HeroSprite.cpp" />
+    <ClCompile Include="..\Classes\SpriteNode\ItemSprite.cpp" />
+    <ClCompile Include="..\Classes\SpriteNode\MapEventsNode.cpp" />
+    <ClCompile Include="..\Classes\SpriteNode\MapNode.cpp" />
+    <ClCompile Include="..\Classes\SpriteNode\MonsterSprite.cpp" />
+    <ClCompile Include="..\Classes\SpriteNode\MySprite.cpp" />
+    <ClCompile Include="..\Classes\SpriteNode\MySpriteManager.cpp" />
+    <ClCompile Include="..\Classes\SpriteNode\PetSprite.cpp" />
+    <ClCompile Include="..\Classes\SpriteNode\SpriteAction.cpp" />
+    <ClCompile Include="..\Classes\SpriteNode\SpriteAniManager.cpp" />
+    <ClCompile Include="..\Classes\SpriteNode\SystemTipNode.cpp" />
+    <ClCompile Include="..\Classes\ToolFun\HttpClientNode.cpp" />
+    <ClCompile Include="..\Classes\ToolFun\JniCall.cpp" />
+    <ClCompile Include="..\Classes\ToolFun\StringKey.cpp" />
+    <ClCompile Include="..\Classes\ToolFun\ToolsFun.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\GCData\DataInitial.h" />
+    <ClInclude Include="..\Classes\GCData\GameConfigData.h" />
+    <ClInclude Include="..\Classes\GLayer\BackLayer.h" />
+    <ClInclude Include="..\Classes\GLayer\DailyLogIn.h" />
+    <ClInclude Include="..\Classes\GLayer\DailyPurchaseLayer.h" />
+    <ClInclude Include="..\Classes\GLayer\DialogLayer.h" />
+    <ClInclude Include="..\Classes\GLayer\GameLayer.h" />
+    <ClInclude Include="..\Classes\GLayer\GameOver.h" />
+    <ClInclude Include="..\Classes\GLayer\GamePause.h" />
+    <ClInclude Include="..\Classes\GLayer\GameReviveLayer.h" />
+    <ClInclude Include="..\Classes\GLayer\HelpLayer.h" />
+    <ClInclude Include="..\Classes\GLayer\HeroChoice.h" />
+    <ClInclude Include="..\Classes\GLayer\LevelChoice.h" />
+    <ClInclude Include="..\Classes\GLayer\LogoLayer.h" />
+    <ClInclude Include="..\Classes\GLayer\LuckySpinLayer.h" />
+    <ClInclude Include="..\Classes\GLayer\MainMenu.h" />
+    <ClInclude Include="..\Classes\GLayer\MyScissorLayer.h" />
+    <ClInclude Include="..\Classes\GLayer\MyScrowLayer.h" />
+    <ClInclude Include="..\Classes\GLayer\PetChoiceLayer.h" />
+    <ClInclude Include="..\Classes\GLayer\PrepareLayer.h" />
+    <ClInclude Include="..\Classes\GLayer\ShopLayer.h" />
+    <ClInclude Include="..\Classes\GLayer\StartGameLoading.h" />
+    <ClInclude Include="..\Classes\GLayer\StartLoading.h" />
+    <ClInclude Include="..\Classes\jansson\hashtable.h" />
+    <ClInclude Include="..\Classes\jansson\jansson.h" />
+    <ClInclude Include="..\Classes\jansson\jansson_config.h" />
+    <ClInclude Include="..\Classes\jansson\jansson_private.h" />
+    <ClInclude Include="..\Classes\jansson\strbuffer.h" />
+    <ClInclude Include="..\Classes\jansson\utf.h" />
+    <ClInclude Include="..\Classes\NDKHelper\NDKCallbackNode.h" />
+    <ClInclude Include="..\Classes\NDKHelper\NDKHelper.h" />
+    <ClInclude Include="..\Classes\SpriteNode\BulletSprite.h" />
+    <ClInclude Include="..\Classes\SpriteNode\HeroBulletSprite.h" />
+    <ClInclude Include="..\Classes\SpriteNode\HeroSprite.h" />
+    <ClInclude Include="..\Classes\SpriteNode\ItemSprite.h" />
+    <ClInclude Include="..\Classes\SpriteNode\MapEventsNode.h" />
+    <ClInclude Include="..\Classes\SpriteNode\MapNode.h" />
+    <ClInclude Include="..\Classes\SpriteNode\MonsterSprite.h" />
+    <ClInclude Include="..\Classes\SpriteNode\MySprite.h" />
+    <ClInclude Include="..\Classes\SpriteNode\MySpriteManager.h" />
+    <ClInclude Include="..\Classes\SpriteNode\PetSprite.h" />
+    <ClInclude Include="..\Classes\SpriteNode\SpriteAction.h" />
+    <ClInclude Include="..\Classes\SpriteNode\SpriteAniManager.h" />
+    <ClInclude Include="..\Classes\SpriteNode\SystemTipNode.h" />
+    <ClInclude Include="..\Classes\ToolFun\HttpClientNode.h" />
+    <ClInclude Include="..\Classes\ToolFun\JniCall.h" />
+    <ClInclude Include="..\Classes\ToolFun\MyLog.h" />
+    <ClInclude Include="..\Classes\ToolFun\StringKey.h" />
+    <ClInclude Include="..\Classes\ToolFun\ToolsFun.h" />
+    <ClInclude Include="main.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\cocos2dx\proj.win32\cocos2d.vcxproj">
+      <Project>{98a51ba8-fc3a-415b-ac8f-8c7bd464e93e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\CocosDenshion\proj.win32\CocosDenshion.vcxproj">
+      <Project>{f8edd7fa-9a51-4e80-baeb-860825d2eac6}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\extensions\proj.win32\libExtensions.vcxproj">
+      <Project>{21b2c324-891f-48ea-ad1a-5ae13de12e28}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\external\Box2D\proj.win32\Box2D.vcxproj">
+      <Project>{929480e7-23c0-4df6-8456-096d71547116}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\external\chipmunk\proj.win32\chipmunk.vcxproj">
+      <Project>{207bc7a9-ccf1-4f2f-a04d-45f72242ae25}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

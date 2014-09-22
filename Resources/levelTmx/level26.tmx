@@ -1,0 +1,2494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="12" height="400" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tiledMapPng" tilewidth="32" tileheight="32">
+  <image source="tiledMapPng.png" width="32" height="32"/>
+ </tileset>
+ <objectgroup name="object1" width="12" height="400">
+  <object name="cE" type="4" x="91" y="12192" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="160"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="90" y="12255" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="160"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="194" y="12128" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="320"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="158" y="12542" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="105" y="12510" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="160"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="179" y="12383" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="320"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="148" y="12160" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="158" y="12032" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="191" y="12574" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="320"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="133" y="12415" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="143" y="12287" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="191" y="12064" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="320"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="194" y="12638" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="320"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="242" y="12606" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="400"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="176" y="12319" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="320"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="37" y="12224" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="80"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="242" y="12096" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="400"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="148" y="12670" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="22" y="12479" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="80"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="227" y="12351" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="400"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="91" y="12702" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="160"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="105" y="12000" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="160"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="37" y="12734" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="80"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="76" y="12447" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="160"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="193" y="11677" width="130" height="60">
+   <properties>
+    <property name="addX" value="200"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="66" y="11694" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="74" y="11467" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="65" y="11630" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="193" y="11709" width="130" height="60">
+   <properties>
+    <property name="addX" value="200"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="64" y="11790" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="72" y="11435" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="193" y="11773" width="130" height="60">
+   <properties>
+    <property name="addX" value="200"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="50" y="11726" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="66" y="11595" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="73" y="11403" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="193" y="11741" width="130" height="60">
+   <properties>
+    <property name="addX" value="200"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="56" y="11758" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="64" y="11531" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="193" y="11805" width="130" height="60">
+   <properties>
+    <property name="addX" value="200"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="64" y="11662" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="58" y="11499" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="58" y="11822" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="72" y="11563" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="141" y="10855" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="167" y="10244" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="168" y="10212" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="140" y="10919" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="169" y="10116" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="230" y="11114" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="360"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="9" y="10516" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="142" y="10791" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="8" y="10484" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="10" y="10452" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="167" y="10148" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="228" y="11146" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="360"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="141" y="10887" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="230" y="11082" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="360"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="168" y="10180" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="10" y="10420" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="142" y="10759" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="228" y="11242" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="360"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="8" y="10580" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="229" y="11178" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="360"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="229" y="11210" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="360"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="9" y="10548" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="169" y="10084" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="140" y="10823" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="900"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="91" y="9653" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="160"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="242" y="9557" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="400"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="37" y="9685" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="80"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="209" y="9334" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="320"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="158" y="9493" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="257" y="9302" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="400"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="173" y="9238" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="120" y="9716" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="160"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="105" y="9461" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="160"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="120" y="9206" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="160"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="163" y="9366" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="106" y="9398" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="160"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="206" y="9270" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="320"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="206" y="9780" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="320"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="194" y="9589" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="320"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="52" y="9430" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="80"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="173" y="9748" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="191" y="9525" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="320"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="257" y="9812" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="400"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="163" y="9876" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="209" y="9844" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="320"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="52" y="9940" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="80"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="148" y="9621" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="4" x="106" y="9908" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="160"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="-5" y="8976" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="267" y="8752" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="440"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1005" x="131" y="9008" width="130" height="60">
+   <properties>
+    <property name="addX" value="240"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="-5" y="8912" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1005" x="131" y="8848" width="130" height="60">
+   <properties>
+    <property name="addX" value="240"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="267" y="8944" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="440"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1005" x="266" y="9040" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="360"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="267" y="9008" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="440"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1005" x="-3" y="9040" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="267" y="8976" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="440"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="-5" y="8848" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="132" y="8503" width="130" height="60">
+   <properties>
+    <property name="addX" value="100"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="267" y="8912" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="440"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1005" x="131" y="8752" width="130" height="60">
+   <properties>
+    <property name="addX" value="240"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1005" x="131" y="8784" width="130" height="60">
+   <properties>
+    <property name="addX" value="240"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1005" x="131" y="8976" width="130" height="60">
+   <properties>
+    <property name="addX" value="240"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="-5" y="8880" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1005" x="266" y="8720" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="360"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1005" x="131" y="8880" width="130" height="60">
+   <properties>
+    <property name="addX" value="240"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="267" y="8848" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="440"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="267" y="8816" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="440"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="-5" y="8784" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="267" y="8784" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="440"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1005" x="-3" y="8720" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="-5" y="8944" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="-5" y="9008" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1005" x="131" y="8816" width="130" height="60">
+   <properties>
+    <property name="addX" value="240"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="-5" y="8816" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1005" x="131" y="8912" width="130" height="60">
+   <properties>
+    <property name="addX" value="240"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1005" x="131" y="8944" width="130" height="60">
+   <properties>
+    <property name="addX" value="240"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="267" y="8880" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="440"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="-5" y="8752" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="328" y="8171" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="450"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="-33" y="8049" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="50"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="56" y="8078" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="150"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="230" y="8332" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="350"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="-40" y="8241" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="50"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="321" y="8362" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="450"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="237" y="8141" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="350"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="49" y="8270" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="150"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="140" y="8302" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="250"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="147" y="8111" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="250"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="229" y="7382" width="130" height="60">
+   <properties>
+    <property name="addX" value="100"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="226" y="7656" width="130" height="60">
+   <properties>
+    <property name="addX" value="100"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="340"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="2" x="34" y="7912" width="130" height="60">
+   <properties>
+    <property name="addX" value="100"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="3"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="2" x="34" y="7794" width="130" height="60">
+   <properties>
+    <property name="addX" value="100"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="3"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="2" x="35" y="7574" width="130" height="60">
+   <properties>
+    <property name="addX" value="100"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="3"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="2" x="35" y="7516" width="130" height="60">
+   <properties>
+    <property name="addX" value="100"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="3"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="228" y="7720" width="130" height="60">
+   <properties>
+    <property name="addX" value="100"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="340"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="227" y="7318" width="130" height="60">
+   <properties>
+    <property name="addX" value="100"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="2" x="35" y="7456" width="130" height="60">
+   <properties>
+    <property name="addX" value="100"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="3"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="2" x="34" y="7854" width="130" height="60">
+   <properties>
+    <property name="addX" value="100"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="3"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="229" y="6669" width="130" height="60">
+   <properties>
+    <property name="addX" value="100"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="226" y="6943" width="130" height="60">
+   <properties>
+    <property name="addX" value="100"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="340"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="2" x="34" y="7199" width="130" height="60">
+   <properties>
+    <property name="addX" value="100"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="3"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="2" x="34" y="7081" width="130" height="60">
+   <properties>
+    <property name="addX" value="100"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="3"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="2" x="35" y="6861" width="130" height="60">
+   <properties>
+    <property name="addX" value="100"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="3"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="2" x="35" y="6803" width="130" height="60">
+   <properties>
+    <property name="addX" value="100"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="3"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="228" y="7007" width="130" height="60">
+   <properties>
+    <property name="addX" value="100"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="340"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="0" x="227" y="6605" width="130" height="60">
+   <properties>
+    <property name="addX" value="100"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="400"/>
+   </properties>
+  </object>
+  <object name="cE" type="2" x="35" y="6743" width="130" height="60">
+   <properties>
+    <property name="addX" value="100"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="240"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="3"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="2" x="34" y="7141" width="130" height="60">
+   <properties>
+    <property name="addX" value="100"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="3"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="19" y="6434" width="130" height="60">
+   <properties>
+    <property name="addX" value="200"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="110"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="253" y="5896" width="130" height="60">
+   <properties>
+    <property name="addX" value="200"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="360"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="130" y="6083" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="250"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="253" y="5928" width="130" height="60">
+   <properties>
+    <property name="addX" value="200"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="360"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="48" y="5529" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="150"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="253" y="5832" width="130" height="60">
+   <properties>
+    <property name="addX" value="200"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="360"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="19" y="6466" width="130" height="60">
+   <properties>
+    <property name="addX" value="200"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="110"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="311" y="6143" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="450"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cE" type="1001" x="253" y="5762" width="130" height="60">
+   <properties>
+    <property name="addX" value="60"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="300"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="3"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="139" y="5562" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="250"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="-50" y="6021" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="50"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cE" type="1001" x="19" y="6268" width="130" height="60">
+   <properties>
+    <property name="addX" value="60"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="50"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="3"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="229" y="5592" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="350"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="253" y="5960" width="130" height="60">
+   <properties>
+    <property name="addX" value="200"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="360"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="19" y="6402" width="130" height="60">
+   <properties>
+    <property name="addX" value="200"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="110"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="220" y="6113" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="350"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="19" y="6338" width="130" height="60">
+   <properties>
+    <property name="addX" value="200"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="110"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="320" y="5622" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="450"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="39" y="6050" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="150"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="19" y="6370" width="130" height="60">
+   <properties>
+    <property name="addX" value="200"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="110"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="253" y="5864" width="130" height="60">
+   <properties>
+    <property name="addX" value="200"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="360"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="-41" y="5500" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="50"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="32" y="5290" width="130" height="60">
+   <properties>
+    <property name="addX" value="200"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="110"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="266" y="4752" width="130" height="60">
+   <properties>
+    <property name="addX" value="200"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="360"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="143" y="4939" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="250"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="266" y="4784" width="130" height="60">
+   <properties>
+    <property name="addX" value="200"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="360"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="61" y="4385" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="150"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="266" y="4688" width="130" height="60">
+   <properties>
+    <property name="addX" value="200"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="360"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="32" y="5322" width="130" height="60">
+   <properties>
+    <property name="addX" value="200"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="110"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="324" y="4999" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="450"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cE" type="1001" x="266" y="4618" width="130" height="60">
+   <properties>
+    <property name="addX" value="60"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="300"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="3"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="152" y="4418" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="250"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="-37" y="4877" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="50"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cE" type="1001" x="32" y="5124" width="130" height="60">
+   <properties>
+    <property name="addX" value="60"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="50"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="3"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="242" y="4448" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="350"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="266" y="4816" width="130" height="60">
+   <properties>
+    <property name="addX" value="200"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="360"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="32" y="5258" width="130" height="60">
+   <properties>
+    <property name="addX" value="200"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="110"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="233" y="4969" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="350"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="32" y="5194" width="130" height="60">
+   <properties>
+    <property name="addX" value="200"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="110"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="333" y="4478" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="450"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="52" y="4906" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="150"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="32" y="5226" width="130" height="60">
+   <properties>
+    <property name="addX" value="200"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="110"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="266" y="4720" width="130" height="60">
+   <properties>
+    <property name="addX" value="200"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="360"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="-28" y="4356" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="50"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cE" type="1001" x="86" y="3891" width="130" height="60">
+   <properties>
+    <property name="addX" value="100"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="4"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1001" x="258" y="4047" width="130" height="60">
+   <properties>
+    <property name="addX" value="100"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="140"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="4"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="161" y="3501" width="130" height="60">
+   <properties>
+    <property name="addX" value="60"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="mCount" value="5"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="165" y="3657" width="130" height="60">
+   <properties>
+    <property name="addX" value="60"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="mCount" value="5"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1001" x="81" y="3579" width="130" height="60">
+   <properties>
+    <property name="addX" value="100"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="4"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1001" x="254" y="3734" width="130" height="60">
+   <properties>
+    <property name="addX" value="100"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="140"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="4"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="156" y="3188" width="130" height="60">
+   <properties>
+    <property name="addX" value="60"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="mCount" value="5"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="159" y="3345" width="130" height="60">
+   <properties>
+    <property name="addX" value="60"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="mCount" value="5"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="171" y="4126" width="130" height="60">
+   <properties>
+    <property name="addX" value="60"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="mCount" value="5"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1001" x="75" y="3266" width="130" height="60">
+   <properties>
+    <property name="addX" value="100"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="4"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1001" x="249" y="3422" width="130" height="60">
+   <properties>
+    <property name="addX" value="100"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="140"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="4"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1001" x="90" y="4204" width="130" height="60">
+   <properties>
+    <property name="addX" value="100"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="4"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1001" x="243" y="3109" width="130" height="60">
+   <properties>
+    <property name="addX" value="100"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="140"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="4"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="167" y="3813" width="130" height="60">
+   <properties>
+    <property name="addX" value="60"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="mCount" value="5"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="169" y="3970" width="130" height="60">
+   <properties>
+    <property name="addX" value="60"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="mCount" value="5"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="154" y="3032" width="130" height="60">
+   <properties>
+    <property name="addX" value="60"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="mCount" value="5"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="0" y="2817" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="272" y="2593" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="440"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1001" x="136" y="2849" width="130" height="60">
+   <properties>
+    <property name="addX" value="240"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="0" y="2753" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1001" x="136" y="2689" width="130" height="60">
+   <properties>
+    <property name="addX" value="240"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="272" y="2785" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="440"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1001" x="271" y="2881" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="360"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="272" y="2849" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="440"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1001" x="2" y="2881" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="272" y="2817" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="440"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="0" y="2689" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="272" y="2753" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="440"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1001" x="136" y="2593" width="130" height="60">
+   <properties>
+    <property name="addX" value="240"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1001" x="136" y="2625" width="130" height="60">
+   <properties>
+    <property name="addX" value="240"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1001" x="136" y="2817" width="130" height="60">
+   <properties>
+    <property name="addX" value="240"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="0" y="2721" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1001" x="271" y="2561" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="360"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1001" x="136" y="2721" width="130" height="60">
+   <properties>
+    <property name="addX" value="240"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="272" y="2689" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="440"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="272" y="2657" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="440"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="0" y="2625" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="272" y="2625" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="440"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1001" x="2" y="2561" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="0" y="2785" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="0" y="2849" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1001" x="136" y="2657" width="130" height="60">
+   <properties>
+    <property name="addX" value="240"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="0" y="2657" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1001" x="136" y="2753" width="130" height="60">
+   <properties>
+    <property name="addX" value="240"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1001" x="136" y="2785" width="130" height="60">
+   <properties>
+    <property name="addX" value="240"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="120"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="2"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="272" y="2721" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="440"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cI" type="4" x="0" y="2593" width="130" height="60">
+   <properties>
+    <property name="addX" value="160"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="40"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="200"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="-40" y="2195" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="50"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="140" y="2256" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="250"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="56" y="2032" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="150"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="147" y="2065" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="250"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="328" y="2125" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="450"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="321" y="2316" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="450"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="230" y="2286" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="350"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="237" y="2095" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="350"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="-33" y="2003" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="50"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="cE" type="1007" x="49" y="2224" width="130" height="60">
+   <properties>
+    <property name="addX" value="80"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="150"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="1000"/>
+   </properties>
+  </object>
+  <object name="endGame" type="0" x="143" y="1702" width="130" height="60">
+   <properties>
+    <property name="addX" value="400"/>
+    <property name="default1" value="0"/>
+    <property name="firstPosX" value="100"/>
+    <property name="itemId" value="4"/>
+    <property name="mCount" value="1"/>
+    <property name="speed" value="300"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="块层 1" width="12" height="400">
+  <data encoding="base64" compression="zlib">
+   eJztzAEBAAAIAiD7f7odFgwguWNKbwAAAAAAAAAAAAAAAAAAAAAAgE8W3wwAAw==
+  </data>
+ </layer>
+</map>

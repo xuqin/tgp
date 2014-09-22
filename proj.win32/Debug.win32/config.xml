@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <unLockMaxLevel value="0"/>
+    <MoveSpeed value="1"/>
+    <Music value="1"/>
+    <SoundEffect value="1"/>
+    <CurHeroId value="0"/>
+    <CurHeroLevel value="1"/>
+    <startCount value="0"/>
+    <TotalCoin value="4500"/>
+    <TotalRevive value="3"/>
+    <TotalBomb value="3"/>
+    <lastDate value="22"/>
+    <lastMonth value="9"/>
+    <currentReIndex value="1"/>
+    <luckyCount value="3"/>
+    <userCount value="0"/>
+    <level0State value="1" starvalue="0"/>
+    <level1State value="0" starvalue="0"/>
+    <level2State value="0" starvalue="0"/>
+    <level3State value="0" starvalue="0"/>
+    <level4State value="0" starvalue="0"/>
+    <level5State value="0" starvalue="0"/>
+    <level6State value="0" starvalue="0"/>
+    <level7State value="0" starvalue="0"/>
+    <level8State value="0" starvalue="0"/>
+    <level9State value="0" starvalue="0"/>
+    <level10State value="0" starvalue="0"/>
+    <level11State value="0" starvalue="0"/>
+    <level12State value="0" starvalue="0"/>
+    <level13State value="0" starvalue="0"/>
+    <level14State value="0" starvalue="0"/>
+    <level15State value="0" starvalue="0"/>
+    <level16State value="0" starvalue="0"/>
+    <level17State value="0" starvalue="0"/>
+    <level18State value="0" starvalue="0"/>
+    <level19State value="0" starvalue="0"/>
+    <level20State value="0" starvalue="0"/>
+    <level21State value="0" starvalue="0"/>
+    <level22State value="0" starvalue="0"/>
+    <level23State value="0" starvalue="0"/>
+    <level24State value="0" starvalue="0"/>
+    <level25State value="0" starvalue="0"/>
+    <level26State value="0" starvalue="0"/>
+    <level27State value="0" starvalue="0"/>
+    <level28State value="0" starvalue="0"/>
+    <level29State value="0" starvalue="0"/>
+    <subLevel0State value="0"/>
+    <subLevel1State value="0"/>
+    <subLevel2State value="0"/>
+    <reward0State value="0"/>
+    <reward1State value="0"/>
+    <reward2State value="0"/>
+    <reward3State value="0"/>
+    <reward4State value="0"/>
+    <reward5State value="0"/>
+    <reward6State value="0"/>
+    <reward7State value="0"/>
+    <reward8State value="0"/>
+    <reward9State value="0"/>
+    <reward10State value="0"/>
+    <Pet0State value="1" petlv="1" petpos="-1"/>
+    <Pet1State value="0" petlv="1" petpos="-1"/>
+    <Pet2State value="0" petlv="1" petpos="-1"/>
+    <Pet3State value="0" petlv="1" petpos="-1"/>
+    <Pet4State value="0" petlv="1" petpos="-1"/>
+    <Pet5State value="0" petlv="1" petpos="-1"/>
+    <hScores value="0"/>
+    <hLength value="0"/>
+    <killTotal value="0"/>
+    <dailyPurchase value="0"/>
+    <activeState value="0"/>
+    <hero0state value="1"/>
+    <hero1state value="0"/>
+    <hero2state value="0"/>
+</config>

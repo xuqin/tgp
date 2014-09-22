@@ -1,0 +1,76 @@
+﻿Build started 2014/9/22 10:26:51.
+     1>Project "D:\cocos2d-x-2.2.1\projects\tgp\proj.win32\tgp.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\cocos2d-x-2.2.1\projects\tgp\proj.win32\..\..\..\cocos2dx" /I"D:\cocos2d-x-2.2.1\projects\tgp\proj.win32\..\..\..\cocos2dx\include" /I"D:\cocos2d-x-2.2.1\projects\tgp\proj.win32\..\..\..\cocos2dx\kazmath\include" /I"D:\cocos2d-x-2.2.1\projects\tgp\proj.win32\..\..\..\cocos2dx\platform\win32" /I"D:\cocos2d-x-2.2.1\projects\tgp\proj.win32\..\..\..\cocos2dx\platform\third_party\win32" /I"D:\cocos2d-x-2.2.1\projects\tgp\proj.win32\..\..\..\cocos2dx\platform\third_party\win32\OGLES" /I"D:\cocos2d-x-2.2.1\projects\tgp\proj.win32\..\..\..\external" /I"D:\cocos2d-x-2.2.1\projects\tgp\proj.win32\..\..\..\external\chipmunk\include\chipmunk" /I"D:\cocos2d-x-2.2.1\projects\tgp\proj.win32\..\..\..\CocosDenshion\include" /I"D:\cocos2d-x-2.2.1\projects\tgp\proj.win32\..\..\..\extensions" /I..\Classes /I.. /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       PreLinkEvent:
+         if not exist "D:\cocos2d-x-2.2.1\projects\tgp\proj.win32\Debug.win32\" mkdir "D:\cocos2d-x-2.2.1\projects\tgp\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\cocos2d-x-2.2.1\projects\tgp\proj.win32\..\..\..\external\libwebsockets\win32\lib\*.*" "D:\cocos2d-x-2.2.1\projects\tgp\proj.win32\Debug.win32\"
+         :VCEnd
+         复制了 2 个文件
+       Link:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\cocos2d-x-2.2.1\projects\tgp\proj.win32\Debug.win32\tgp.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\cocos2d-x-2.2.1\projects\tgp\proj.win32\Debug.win32\\" libExtensions.lib libcocos2d.lib libCocosDenshion.lib opengl32.lib glew32.lib libBox2d.lib libchipmunk.lib libcurl_imp.lib pthreadVCE2.lib websockets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\cocos2d-x-2.2.1\projects\tgp\proj.win32\Debug.win32\tgp.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\cocos2d-x-2.2.1\projects\tgp\proj.win32\Debug.win32\tgp.lib" /MACHINE:X86 /SAFESEH Debug.win32\AppDelegate.obj
+         Debug.win32\DataInitial.obj
+         Debug.win32\GameConfigData.obj
+         Debug.win32\BackLayer.obj
+         Debug.win32\DailyLogIn.obj
+         Debug.win32\DailyPurchaseLayer.obj
+         Debug.win32\DialogLayer.obj
+         Debug.win32\GameLayer.obj
+         Debug.win32\GameOver.obj
+         Debug.win32\GamePause.obj
+         Debug.win32\GameReviveLayer.obj
+         Debug.win32\HelpLayer.obj
+         Debug.win32\HeroChoice.obj
+         Debug.win32\LevelChoice.obj
+         Debug.win32\LogoLayer.obj
+         Debug.win32\LuckySpinLayer.obj
+         Debug.win32\MainMenu.obj
+         Debug.win32\MyScissorLayer.obj
+         Debug.win32\MyScrowLayer.obj
+         Debug.win32\PetChoiceLayer.obj
+         Debug.win32\PrepareLayer.obj
+         Debug.win32\ShopLayer.obj
+         Debug.win32\StartGameLoading.obj
+         Debug.win32\StartLoading.obj
+         Debug.win32\dump.obj
+         Debug.win32\error.obj
+         Debug.win32\hashtable.obj
+         Debug.win32\load.obj
+         Debug.win32\memory.obj
+         Debug.win32\pack_unpack.obj
+         Debug.win32\strbuffer.obj
+         Debug.win32\strconv.obj
+         Debug.win32\utf.obj
+         Debug.win32\value.obj
+         Debug.win32\NDKCallbackNode.obj
+         Debug.win32\NDKHelper.obj
+         Debug.win32\BulletSprite.obj
+         Debug.win32\HeroBulletSprite.obj
+         Debug.win32\HeroSprite.obj
+         Debug.win32\ItemSprite.obj
+         Debug.win32\MapEventsNode.obj
+         Debug.win32\MapNode.obj
+         Debug.win32\MonsterSprite.obj
+         Debug.win32\MySprite.obj
+         Debug.win32\MySpriteManager.obj
+         Debug.win32\PetSprite.obj
+         Debug.win32\SpriteAction.obj
+         Debug.win32\SpriteAniManager.obj
+         Debug.win32\SystemTipNode.obj
+         Debug.win32\HttpClientNode.obj
+         Debug.win32\JniCall.obj
+         Debug.win32\StringKey.obj
+         Debug.win32\ToolsFun.obj
+         Debug.win32\main.obj
+         "D:\cocos2d-x-2.2.1\projects\tgp\proj.win32\Debug.win32\libcocos2d.lib"
+         "D:\cocos2d-x-2.2.1\projects\tgp\proj.win32\Debug.win32\libCocosDenshion.lib"
+         "D:\cocos2d-x-2.2.1\projects\tgp\proj.win32\Debug.win32\libExtensions.lib"
+         "D:\cocos2d-x-2.2.1\projects\tgp\proj.win32\Debug.win32\libBox2D.lib"
+         "D:\cocos2d-x-2.2.1\projects\tgp\proj.win32\Debug.win32\libchipmunk.lib"
+         tgp.vcxproj -> D:\cocos2d-x-2.2.1\projects\tgp\proj.win32\Debug.win32\tgp.exe
+     1>Done Building Project "D:\cocos2d-x-2.2.1\projects\tgp\proj.win32\tgp.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.94

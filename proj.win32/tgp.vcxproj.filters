@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GCData">
+      <UniqueIdentifier>{f529d1c8-af85-4fc4-a6c3-fed5c8cef517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\GLayer">
+      <UniqueIdentifier>{21566862-a2be-48eb-a45b-75df90672a3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\ToolFun">
+      <UniqueIdentifier>{910f7bdf-d998-4311-a89f-82289fd6e6d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\jansson">
+      <UniqueIdentifier>{763a2638-08e1-441d-9cb3-24e8fc6e9d76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\NDKHelper">
+      <UniqueIdentifier>{fc174cb3-d7a8-4ef4-9c27-f5a3a67e0d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\SpriteNode">
+      <UniqueIdentifier>{5a5f01be-0b32-41f4-ba32-72a6fc81a5f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GCData\DataInitial.cpp">
+      <Filter>Classes\GCData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GCData\GameConfigData.cpp">
+      <Filter>Classes\GCData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\jansson\dump.c">
+      <Filter>Classes\jansson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\jansson\error.c">
+      <Filter>Classes\jansson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\jansson\hashtable.c">
+      <Filter>Classes\jansson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\jansson\load.c">
+      <Filter>Classes\jansson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\jansson\memory.c">
+      <Filter>Classes\jansson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\jansson\pack_unpack.c">
+      <Filter>Classes\jansson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\jansson\strbuffer.c">
+      <Filter>Classes\jansson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\jansson\strconv.c">
+      <Filter>Classes\jansson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\jansson\utf.c">
+      <Filter>Classes\jansson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\jansson\value.c">
+      <Filter>Classes\jansson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NDKHelper\NDKCallbackNode.cpp">
+      <Filter>Classes\NDKHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NDKHelper\NDKHelper.cpp">
+      <Filter>Classes\NDKHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GLayer\BackLayer.cpp">
+      <Filter>Classes\GLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GLayer\DailyLogIn.cpp">
+      <Filter>Classes\GLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GLayer\DailyPurchaseLayer.cpp">
+      <Filter>Classes\GLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GLayer\DialogLayer.cpp">
+      <Filter>Classes\GLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GLayer\GameLayer.cpp">
+      <Filter>Classes\GLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GLayer\GameOver.cpp">
+      <Filter>Classes\GLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GLayer\GamePause.cpp">
+      <Filter>Classes\GLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GLayer\GameReviveLayer.cpp">
+      <Filter>Classes\GLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GLayer\HelpLayer.cpp">
+      <Filter>Classes\GLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GLayer\HeroChoice.cpp">
+      <Filter>Classes\GLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GLayer\LevelChoice.cpp">
+      <Filter>Classes\GLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GLayer\LogoLayer.cpp">
+      <Filter>Classes\GLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GLayer\LuckySpinLayer.cpp">
+      <Filter>Classes\GLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GLayer\MainMenu.cpp">
+      <Filter>Classes\GLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GLayer\MyScissorLayer.cpp">
+      <Filter>Classes\GLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GLayer\MyScrowLayer.cpp">
+      <Filter>Classes\GLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GLayer\PetChoiceLayer.cpp">
+      <Filter>Classes\GLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GLayer\PrepareLayer.cpp">
+      <Filter>Classes\GLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GLayer\ShopLayer.cpp">
+      <Filter>Classes\GLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GLayer\StartGameLoading.cpp">
+      <Filter>Classes\GLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GLayer\StartLoading.cpp">
+      <Filter>Classes\GLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SpriteNode\BulletSprite.cpp">
+      <Filter>Classes\SpriteNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SpriteNode\HeroBulletSprite.cpp">
+      <Filter>Classes\SpriteNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SpriteNode\HeroSprite.cpp">
+      <Filter>Classes\SpriteNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SpriteNode\ItemSprite.cpp">
+      <Filter>Classes\SpriteNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SpriteNode\MapEventsNode.cpp">
+      <Filter>Classes\SpriteNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SpriteNode\MapNode.cpp">
+      <Filter>Classes\SpriteNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SpriteNode\MonsterSprite.cpp">
+      <Filter>Classes\SpriteNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SpriteNode\MySprite.cpp">
+      <Filter>Classes\SpriteNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SpriteNode\MySpriteManager.cpp">
+      <Filter>Classes\SpriteNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SpriteNode\PetSprite.cpp">
+      <Filter>Classes\SpriteNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SpriteNode\SpriteAction.cpp">
+      <Filter>Classes\SpriteNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SpriteNode\SpriteAniManager.cpp">
+      <Filter>Classes\SpriteNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SpriteNode\SystemTipNode.cpp">
+      <Filter>Classes\SpriteNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ToolFun\HttpClientNode.cpp">
+      <Filter>Classes\ToolFun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ToolFun\JniCall.cpp">
+      <Filter>Classes\ToolFun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ToolFun\StringKey.cpp">
+      <Filter>Classes\ToolFun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ToolFun\ToolsFun.cpp">
+      <Filter>Classes\ToolFun</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GCData\DataInitial.h">
+      <Filter>Classes\GCData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GCData\GameConfigData.h">
+      <Filter>Classes\GCData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\jansson\hashtable.h">
+      <Filter>Classes\jansson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\jansson\jansson.h">
+      <Filter>Classes\jansson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\jansson\jansson_config.h">
+      <Filter>Classes\jansson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\jansson\jansson_private.h">
+      <Filter>Classes\jansson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\jansson\strbuffer.h">
+      <Filter>Classes\jansson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\jansson\utf.h">
+      <Filter>Classes\jansson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NDKHelper\NDKCallbackNode.h">
+      <Filter>Classes\NDKHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NDKHelper\NDKHelper.h">
+      <Filter>Classes\NDKHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GLayer\BackLayer.h">
+      <Filter>Classes\GLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GLayer\DailyLogIn.h">
+      <Filter>Classes\GLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GLayer\DailyPurchaseLayer.h">
+      <Filter>Classes\GLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GLayer\DialogLayer.h">
+      <Filter>Classes\GLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GLayer\GameLayer.h">
+      <Filter>Classes\GLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GLayer\GameOver.h">
+      <Filter>Classes\GLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GLayer\GamePause.h">
+      <Filter>Classes\GLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GLayer\GameReviveLayer.h">
+      <Filter>Classes\GLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GLayer\HelpLayer.h">
+      <Filter>Classes\GLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GLayer\HeroChoice.h">
+      <Filter>Classes\GLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GLayer\LevelChoice.h">
+      <Filter>Classes\GLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GLayer\LogoLayer.h">
+      <Filter>Classes\GLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GLayer\LuckySpinLayer.h">
+      <Filter>Classes\GLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GLayer\MainMenu.h">
+      <Filter>Classes\GLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GLayer\MyScissorLayer.h">
+      <Filter>Classes\GLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GLayer\MyScrowLayer.h">
+      <Filter>Classes\GLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GLayer\PetChoiceLayer.h">
+      <Filter>Classes\GLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GLayer\PrepareLayer.h">
+      <Filter>Classes\GLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GLayer\ShopLayer.h">
+      <Filter>Classes\GLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GLayer\StartGameLoading.h">
+      <Filter>Classes\GLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GLayer\StartLoading.h">
+      <Filter>Classes\GLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SpriteNode\BulletSprite.h">
+      <Filter>Classes\SpriteNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SpriteNode\HeroBulletSprite.h">
+      <Filter>Classes\SpriteNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SpriteNode\HeroSprite.h">
+      <Filter>Classes\SpriteNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SpriteNode\ItemSprite.h">
+      <Filter>Classes\SpriteNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SpriteNode\MapEventsNode.h">
+      <Filter>Classes\SpriteNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SpriteNode\MapNode.h">
+      <Filter>Classes\SpriteNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SpriteNode\MonsterSprite.h">
+      <Filter>Classes\SpriteNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SpriteNode\MySprite.h">
+      <Filter>Classes\SpriteNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SpriteNode\MySpriteManager.h">
+      <Filter>Classes\SpriteNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SpriteNode\PetSprite.h">
+      <Filter>Classes\SpriteNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SpriteNode\SpriteAction.h">
+      <Filter>Classes\SpriteNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SpriteNode\SpriteAniManager.h">
+      <Filter>Classes\SpriteNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SpriteNode\SystemTipNode.h">
+      <Filter>Classes\SpriteNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ToolFun\HttpClientNode.h">
+      <Filter>Classes\ToolFun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ToolFun\JniCall.h">
+      <Filter>Classes\ToolFun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ToolFun\MyLog.h">
+      <Filter>Classes\ToolFun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ToolFun\StringKey.h">
+      <Filter>Classes\ToolFun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ToolFun\ToolsFun.h">
+      <Filter>Classes\ToolFun</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

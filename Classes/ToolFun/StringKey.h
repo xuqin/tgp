@@ -1,0 +1,85 @@
+#ifndef STRINGKEY_H
+#define STRINGKEY_H
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+class SK
+{
+public:
+	SK();
+	~SK();
+	enum StringKey
+	{
+		OK,
+		UN_LOCK0,
+		UN_LOCK1,
+		REWARD_TIP0,
+		REWARD_TIP1,
+		CLICK,
+		H_SCORE,
+		H_LENGTH,
+		KILL_TOTAL,
+		MAX_LEVEL,
+		HERO0_NAME,
+		HERO1_NAME,
+		HERO2_NAME,
+		HERO0_DES,
+		HERO1_DES,
+		HERO2_DES,
+		SHOP_ITEM0,
+		SHOP_ITEM1,
+		SHOP_ITEM2,
+		SHOP_ITEM3,
+		SHOP_ITEM4,
+		SHOP_ITEM5,
+		PET0_NAME,
+		PET1_NAME,
+		PET2_NAME,
+		PET3_NAME,
+		PET4_NAME,
+		PET5_NAME,
+		PET0_DES,
+		PET1_DES,
+		PET2_DES,
+		PET3_DES,
+		PET4_DES,
+		PET5_DES,
+		UPGRADE_DES,
+		HERO_SKILL_DES0,
+		HERO_SKILL_DES1,
+		HERO_SKILL_DES2,
+		STORE_TIP,
+		FAILED_TIP,
+		FAILED_CONTENT,
+		HERO_UPGRADE_TIP0,
+		HERO_UPGRADE_TIP1,
+		HERO_UPGRADE_TIP2,
+		HERO_UPGRADE_TIP3,
+		ITEM_NAME0,
+		ITEM_NAME1,
+		ITEM_NAME2,
+		ITEM_NAME3,
+		ITEM_NAME4,
+		ITEM_DES0,
+		ITEM_DES1,
+		ITEM_DES2,
+		ITEM_DES3,
+		ITEM_DES4,
+		PET_GIT,
+		LUCKY0_DES,
+		LUCKY1_DES,
+		LUCKY2_DES,
+		LUCKY3_DES,
+		LUCKY4_DES,
+		PET3_PRICE,
+		PET4_PRICE,
+	};
+};
+extern SK K;
+extern const int gValueCount;
+extern const char *gLangueValueKey[1000];
+extern const char *gChinesValue[100];
+extern const char *gEnglishValue[100];
+#endif
